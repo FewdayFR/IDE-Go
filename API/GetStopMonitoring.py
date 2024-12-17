@@ -13,14 +13,8 @@ HEADERS = {
 }
 
 def get_stop_monitoring(stop_code, line=None, next_passages=3):
-    """
-    Obtenir les informations des prochains passages à un arrêt.
+    # Voir les paramètres ligne 35 <> 37
     
-    :param stop_code: Code Hastus de l'arrêt (ex: "F-EBOS_A").
-    :param line: Nom de la ligne (optionnel).
-    :param next_passages: Nombre de prochains passages à afficher.
-    :return: Résultat de l'API au format JSON.
-    """
     # Corps de la requête
     body = {
         "code": stop_code,
