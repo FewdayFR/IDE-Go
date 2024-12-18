@@ -3,7 +3,7 @@
 > Ces exemples de code python ne sont pas officiels et nécessitent une clef d'authentification fourni par idelis.
 
 > [!WARNING]
-> Pour l'utilisation de **toutes les API** installer la **dépendance request**
+> Pour l'utilisation de **toutes les API** , la **dépendance request doit etre installée**
 >
 >  ``pip install request``
 
