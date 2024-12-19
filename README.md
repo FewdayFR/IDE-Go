@@ -20,3 +20,13 @@ cette api récupère les arrêts a proximité d'une certaine localisation
 >installer les dépendances
 >
 >``pip install requests geopy``
+>
+### Contribuer :  
+
+Vous pouvez proposer des améliorations ou signaler des problèmes directement sur ce dépôt.  
+
+---
+
+### À propos :  
+
+Ce dépôt est destiné à aider les développeurs intéressés par l'intégration des données de transport d'Idelis dans leurs applications.
