@@ -5,7 +5,7 @@
 > [!WARNING]
 > Pour l'utilisation de **toutes les API** , la **dépendance request doit etre installée**
 >
->  ``pip install request``
+>  ``pip install requests``
 
 Bon développement et amusez vous bien !
 
@@ -19,4 +19,4 @@ cette api récupère les arrêts a proximité d'une certaine localisation
 >
 >installer les dépendances
 >
->``pip install request geopy``
+>``pip install requests geopy``
