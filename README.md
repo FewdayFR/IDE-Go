@@ -12,7 +12,19 @@ Bon développement et amusez vous bien !
 > *questions -> support@pro.fewday-studio.go.yn.fr*
 
 ## API AroundMe
-cette api récupère les arrêts a proximité d'une certaine localisation 
+
+**L'API AroundMe** retourne les arrêts de bus à proximité d'une localisation donnée.
+
+**Usage principal :** Identifier les arrêts les plus proches en fonction des coordonnées GPS.
+
+**Données requises :**Latitude et longitude au **format WGS84** (EPSG 4326).
+
+
+**Réponse :** Une liste d'arrêts avec leurs coordonnées, leur nom, les lignes desservies, la direction, et la distance depuis la position spécifiée.
+
+**Exemple d'utilisation :** Trouver les arrêts dans un rayon de quelques mètres autour d'une position GPS (comme celle d'un utilisateur).
+
+ 
 >utilisation :
 >
 >Avoir une clef d'authentification et l'url de l'API
