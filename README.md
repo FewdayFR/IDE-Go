@@ -14,5 +14,9 @@ Bon développement et amusez vous bien !
 ## API AroundMe
 cette api récupère les arrêts a proximité d'une certaine localisation 
 >utilisation :
+>
 >Avoir une clef d'authentification et l'url de l'API
->installer les dépendances 
+>
+>installer les dépendances
+>
+>``pip install request geopy``
