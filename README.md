@@ -22,8 +22,29 @@ cette api récupère les arrêts a proximité d'une certaine localisation
 >``pip install requests geopy``
 >
 
-## API Autocomplete 
-cette api complète automatiquement le nom de l'arrêt a partir de
+## API AutoComplete 
+
+L'API AutoComplete permet de rechercher des arrêts de bus en fonction des premiers caractères de leur nom.
+
+**Usage principal**: Récupérer une liste d'arrêts correspondant à une recherche partielle pour aider à la saisie automatique.
+
+**Données requises :**
+
+Une chaîne de caractères de **3 lettres minimum** pour commencer la recherche.
+
+
+**Réponse :** Une liste des arrêts correspondants avec leurs informations (nom, latitude, longitude, lignes desservies, etc.).
+
+Exemple d'utilisation : Trouver tous les arrêts contenant "Bos" pour potentiellement trouver l'arret bosquet quai A.
+>utilisation :
+>
+>Avoir une clef d'authentification et l'url de l'API
+>
+>installer les dépendances
+>
+>``pip install requests``
+
+
 ### Contribuer :  
 
 Vous pouvez proposer des améliorations ou signaler des problèmes directement sur ce dépôt.  
