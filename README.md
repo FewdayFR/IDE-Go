@@ -10,3 +10,9 @@
 Bon développement et amusez vous bien !
 
 > *questions -> support@pro.fewday-studio.go.yn.fr*
+
+## API AroundMe
+cette api récupère les arrêts a proximité d'une certaine localisation 
+>utilisation :
+>Avoir une clef d'authentification et l'url de l'API
+>installer les dépendances 
