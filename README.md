@@ -1,6 +1,6 @@
 # Bienvenu sur le dépôt d'exemple non officiel de l'API d'Idelis Pau
 > [!NOTE]
-> Ces exemples de code python ne sont pas officiels et nécessitent une clef d'authentification fourni par idelis.
+> Ces exemples de code python ne sont pas officiels et nécessitent une clé d'authentification fourni par idelis.
 
 > [!WARNING]
 > Pour l'utilisation de **toutes les API** , la **dépendance request doit etre installée**
