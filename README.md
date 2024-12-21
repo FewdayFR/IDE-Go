@@ -17,7 +17,7 @@ Bon développement et amusez vous bien !
 
 **Usage principal :** Identifier les arrêts les plus proches en fonction des coordonnées GPS.
 
-**Données requises :**Latitude et longitude au **format WGS84** (EPSG 4326).
+**Données requises :** Latitude et longitude au **format WGS84** (EPSG 4326).
 
 
 **Réponse :** Une liste d'arrêts avec leurs coordonnées, leur nom, les lignes desservies, la direction, et la distance depuis la position spécifiée.
