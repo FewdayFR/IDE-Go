@@ -1,12 +1,12 @@
 # Bienvenue sur le dépôt d'exemples non officiels de l'API Idelis Pau  
 
 > [!NOTE]
-> Ces exemples de code python ne sont pas officiels et nécessitent une clé d'authentification fourni par idelis.
+> Ces exemples de code **exclusivement en python** ne sont pas officiels et nécessitent une clé d'authentification fourni par idelis.
 
 > [!WARNING]
 > Pour l'utilisation de **toutes les API** , la **dépendance request doit etre installée** 
 > ```bash  
-> pip install requests  
+> pip install -r requirements.txt 
 > ```  
 
 Bon développement et amusez-vous bien !  
@@ -36,13 +36,11 @@ Une liste d'arrêts avec :
 ### **Exemple d'utilisation**  
 Trouver les arrêts situés dans un rayon de quelques mètres autour d'une position GPS (comme celle d'un utilisateur).  
 
-### **Utilisation**  
-1. Avoir une clé d'authentification et l'URL de l'API.  
-2. Installer les dépendances nécessaires :  
-   ```bash  
-   pip install requests geopy
-
-   
+### Utilisation
+1. Avoir une clé d'authentification et l'URL de l'API.
+2. Installer les dépendances nécessaires :
+   ```bash
+   pip install -r requirements.txt   
 ## API GetStopMonitoring
 
 L'API GetStopMonitoring fournit les informations en temps réel sur les prochains passages de bus à un arrêt spécifique.
@@ -65,7 +63,7 @@ Une liste des prochains passages avec les détails suivants :
 1. Avoir une clé d'authentification et l'URL de l'API.
 2. Installer les dépendances nécessaires :
    ```bash
-   pip install requests
+   pip install -r requirements.txt
 
 ## API AutoComplete
 
@@ -90,7 +88,30 @@ Trouver tous les arrêts contenant "Bos" pour potentiellement trouver l'arrêt B
 1. Avoir une clé d'authentification et l'URL de l'API.
 2. Installer les dépendances nécessaires :
    ```bash
-   pip install requests
+   pip install -r requirements.txt
+  ## API Siri
+
+L'API Siri est une interface complète pour accéder aux données en temps réel du réseau de transport d'Idelis. Elle s'appuie sur le protocole SIRI (Service Interface for Real-time Information).
+
+### Usage principal
+Accéder à divers types d'informations temps réel, telles que :
+- L'état du réseau,
+- Les perturbations en cours,
+- Les prochains passages aux arrêts.
+
+### Données requises
+Dépend des services SIRI spécifiques utilisés (par exemple, StopMonitoring, GeneralMessage, etc.).
+
+### Réponse
+Une réponse au format XML ou JSON contenant les informations demandées.
+
+### Exemple d'utilisation
+Intégrer des fonctionnalités avancées dans une application pour surveiller les interruptions de service ou les horaires temps réel.
+### Utilisation
+1. Avoir une clé d'authentification et l'URL de l'API.
+2. Installer les dépendances nécessaires :
+   ```bash
+   pip install -r requirements.txt
  ## Contribuer
 Vous pouvez proposer des améliorations ou signaler des problèmes directement sur ce dépôt.
 
