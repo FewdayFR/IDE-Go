@@ -35,12 +35,12 @@ Une liste d'arrêts avec :
 
 ### **Exemple d'utilisation**  
 Trouver les arrêts situés dans un rayon de quelques mètres autour d'une position GPS (comme celle d'un utilisateur).  
-
-### Utilisation
-1. Avoir une clé d'authentification et l'URL de l'API.
-2. Installer les dépendances nécessaires :
-   ```bash
-   pip install -r requirements.txt   
+> [!NOTE]
+>### Utilisation
+>1. Avoir une clé d'authentification et l'URL de l'API.
+>2. Installer les dépendances nécessaires :
+>   ```bash
+>   pip install -r requirements.txt   
 ## API GetStopMonitoring
 
 L'API GetStopMonitoring fournit les informations en temps réel sur les prochains passages de bus à un arrêt spécifique.
@@ -58,12 +58,12 @@ Une liste des prochains passages avec les détails suivants :
 - Temps d'attente en minutes ou heure exacte d'arrivée,
 - Type d'horaire (théorique ou temps réel),
 - Indication s'il s'agit du premier ou dernier passage de la journée.
-
-### Utilisation
-1. Avoir une clé d'authentification et l'URL de l'API.
-2. Installer les dépendances nécessaires :
-   ```bash
-   pip install -r requirements.txt
+> [!NOTE]
+>### Utilisation
+>1. Avoir une clé d'authentification et l'URL de l'API.
+>2. Installer les dépendances nécessaires :
+>   ```bash
+>   pip install -r requirements.txt
 
 ## API AutoComplete
 
@@ -83,12 +83,12 @@ Une liste des arrêts correspondants avec leurs informations :
 
 ### Exemple d'utilisation
 Trouver tous les arrêts contenant "Bos" pour potentiellement trouver l'arrêt Bosquet Quai A.
-
-### Utilisation
-1. Avoir une clé d'authentification et l'URL de l'API.
-2. Installer les dépendances nécessaires :
-   ```bash
-   pip install -r requirements.txt
+> [!NOTE]
+>### Utilisation
+>1. Avoir une clé d'authentification et l'URL de l'API.
+>2. Installer les dépendances nécessaires :
+>   ```bash
+>   pip install -r requirements.txt
   ## API Siri
 
 L'API Siri est une interface complète pour accéder aux données en temps réel du réseau de transport d'Idelis. Elle s'appuie sur le protocole SIRI (Service Interface for Real-time Information).
@@ -107,11 +107,12 @@ Une réponse au format XML ou JSON contenant les informations demandées.
 
 ### Exemple d'utilisation
 Intégrer des fonctionnalités avancées dans une application pour surveiller les interruptions de service ou les horaires temps réel.
-### Utilisation
-1. Avoir une clé d'authentification et l'URL de l'API.
-2. Installer les dépendances nécessaires :
-   ```bash
-   pip install -r requirements.txt
+> [!NOTE]
+>### Utilisation
+>1. Avoir une clé d'authentification et l'URL de l'API.
+>2. Installer les dépendances nécessaires :
+>   ```bash
+>   pip install -r requirements.txt
  ## Contribuer
 Vous pouvez proposer des améliorations ou signaler des problèmes directement sur ce dépôt.
 
