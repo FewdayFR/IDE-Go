@@ -17,6 +17,7 @@
 > Pour toute question : *support@fewday.go.yn.fr*  
 
 > [!IMPORTANT]
+>l'utilisation de l'app GitHub mobile peut altérer l'utilisation se ce dépôt.
 >  Merci de signaler tout accès à ce dépôt.
 <img src="https://i.ibb.co/6BscpJj/IMG-20240912-WA0002-1.jpg" alt="Logo" width="70">
 
