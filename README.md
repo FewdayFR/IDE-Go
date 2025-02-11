@@ -1,4 +1,4 @@
-# Bienvenu sur le depot Hey'Ide by Fewday 
+# Bienvenu sur le depot Ide'go by Fewday 
 
 > [!CAUTION]
 > Ce depot est un **dépôt privé** qui sert a l'éducation et l'apprentissage de l'utilisationn des APIs   **ainsi** que d'exemple de codes sources pour comprendre l'utilisation de ces APIs
