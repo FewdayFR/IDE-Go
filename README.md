@@ -92,7 +92,7 @@ Consulter les horaires des prochains passages pour une ligne ou un arrêt donné
 
 ### Données requises
 - Le code Hastus de l'arrêt.
-- (Optionnel) : Le nom de la ligne.
+- (Optionnel) : Le numéro de la ligne.
 - Le nombre de passages souhaités.
 
 ### Réponse
